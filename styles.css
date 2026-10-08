@@ -1,3 +1,4 @@
+/*Default styles for blog page*/
 body{
     font-size: 18px;
     margin: 0;
@@ -8,6 +9,9 @@ body{
     line-height: 1.5;
 }
 
+/*Grid layout: 3 rows and 2 columns
+Columns for the main content and sidebar
+Rows to place the header, main content with sidebar and footer*/
 .container{
     display: grid;
     min-height: 100vh;
@@ -46,7 +50,6 @@ header h1{
     font-family: "Trebuchet MS", "Arial", "sans-serif";
     line-height: 1.2;
 }
-
 
 aside{
      grid-area: aside;
